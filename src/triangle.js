@@ -1,8 +1,8 @@
 (() => {
     const c = document.getElementById('canvas')
     const resizeWindow = function () {
-        c.width = window.innerWidth
-        c.height = window.innerHeight
+        c.width = screen.width;
+        c.height = screen.height;
     }
     resizeWindow()
     window.addEventListener('resize', resizeWindow)
